@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.5.2",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "jwt-decode": "^2.2.0",
@@ -21,11 +22,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "proxy": {
-    "/api": {
-      "target": "http://localhost:5000",
-      "secure": false
-    }
   }
 }
